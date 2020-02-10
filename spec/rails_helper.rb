@@ -1,5 +1,5 @@
 
-require 'spec_helper'
+require 'rails_helper'
 ENV['RAILS_ENV'] ||= 'test'
 require 'coveralls'
 Coveralls.wear_merged!('rails')
