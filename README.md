@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-* Seting old-state as default
+* Seting master1 as default
