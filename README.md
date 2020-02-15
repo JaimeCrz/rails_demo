@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-* old state
+* Seting old-state as default
