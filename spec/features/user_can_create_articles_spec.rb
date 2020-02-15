@@ -1,3 +1,6 @@
+require "rails_helper"
+require "pry"
+
 feature 'User can create articles' do
     before do
       visit root_path
