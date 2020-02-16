@@ -42,7 +42,5 @@ feature 'User can create articles' do
       expect(page).to have_content "Title can't be blank"
     end
   end
-  
-    # Write another sad path scenario you can think of
-  end
+end
   
