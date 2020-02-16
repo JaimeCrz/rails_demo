@@ -5,4 +5,7 @@ Rails.application.routes.draw do
 
   resources :articles, only: [:index, :show, :new]
 
+  post 'articles/new'
+  resources :articles, only: [:new, :create]
+  
   end
