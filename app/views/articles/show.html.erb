@@ -1,2 +1,21 @@
-<p><%= @article.title %></p>
-<p><%= @article.content %></p>
+<div>
+<% flash.each do |name, msg| %>
+<div class='alert alert-<%= name %>'>
+<%= msg %>
+</div>
+<%end%>
+</div>
+
+
+
+<p>
+<strong>Title:</strong>
+<%= @article.title %>
+</p>
+
+<p>
+<strong>Content:</strong>
+<%= @article.content %>
+</p>
+
+<%= link_to 'Back to index', articles_path %>
